@@ -101,20 +101,20 @@ export default function Dashboard() {
     }
   };
 
-  const handleEdit = (job) => {
-    setEditingJob({
-      id: job.id,
-      jobTitle: job.jobTitle,
-      companyName: job.companyName,
-      jobLink: job.jobLink || '',
-      status: job.status,
-      source: job.source,
-      applicationMode: job.applicationMode,
-      jobType: job.jobType,
-      note: job.note || ''
-    });
-    setShowEditModal(true);
-  };
+  // const handleEdit = (job) => {
+  //   setEditingJob({
+  //     id: job.id,
+  //     jobTitle: job.jobTitle,
+  //     companyName: job.companyName,
+  //     jobLink: job.jobLink || '',
+  //     status: job.status,
+  //     source: job.source,
+  //     applicationMode: job.applicationMode,
+  //     jobType: job.jobType,
+  //     note: job.note || ''
+  //   });
+  //   setShowEditModal(true);
+  // };
 
   const handleUpdate = async (e) => {
     e.preventDefault();
