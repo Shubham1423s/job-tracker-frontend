@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://job-tracker-production-38c5.up.railway.app';
+const API_URL = 'https://job-tracker-2j1f.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
